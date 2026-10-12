@@ -1,5 +1,5 @@
 let age:number = 25; 
-let name : string = "sumit"; 
+// let name : string = "sumit"; 
 console.log(name); 
 console.log(age)
 
@@ -305,10 +305,10 @@ let value2: unknown = "hello";
 let str = value2 as string;
 
 
-const config = JSON.parse(rawConfig) as {
-    apiUrl: string; 
-    timeout: number
-}; 
+// const config = JSON.parse(rawConfig) as {
+//     apiUrl: string; 
+//     timeout: number
+// }; 
 
 
 interface Admin {
@@ -327,4 +327,6 @@ function greet2(name:string,title?:string){
 
 
 // revise generic with chai aur code. 
+
+
 
